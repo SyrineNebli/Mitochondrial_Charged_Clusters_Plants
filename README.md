@@ -2,10 +2,8 @@
 
 ## Getting Started
 
-### Prerequisites
-
+### Prerequisites 
 To run the scripts and reproduce the analysis, you will need:
-
 *   **Python 3.x:** (e.g., Python 3.8+)
 *   **Jupyter Notebook:** For running the `.ipynb` files.
 *   **Git:** For cloning this repository.
