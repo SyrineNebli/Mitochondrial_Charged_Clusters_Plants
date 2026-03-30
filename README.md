@@ -58,7 +58,7 @@ The `data/` directory contains `supplementary_material_1.json`, which is a JSON 
 
 The `results/` directory stores the raw textual outputs from key bioinformatics tools used in our analysis, serving as the source for the figures and tables presented in the manuscript.
 
-*   ***IQ-TREE outputs (`results/IQTree/`): This folder contains the IQ-TREE report files (.iqtree) generated from the multiple sequence alignment using IQ-TREE2 (iqtree2.exe -s NCCC_inter_proteins.afa -B 1000 -alrt 1000). These reports include detailed model information, bootstrap support, and approximate likelihood-ratio test (aLRT) values, and were used to infer the phylogenetic relationships of proteins containing conserved charged clusters (CCC).
+*   **IQ-TREE outputs (`results/IQTree/`):** This folder contains the IQ-TREE report files (.iqtree) generated from the multiple sequence alignment using IQ-TREE2 (iqtree2.exe -s NCCC_inter_proteins.afa -B 1000 -alrt 1000). These reports include detailed model information, bootstrap support, and approximate likelihood-ratio test (aLRT) values, and were used to infer the phylogenetic relationships of proteins containing conserved charged clusters (CCC).
 *   **IUPRED2A outputs (`results/IUPRED2A/`):** Includes the raw prediction results for intrinsic disorder for various categories of NCCC and PCCC proteins. These files underpin our disorder ratio analyses.
 
 ---
