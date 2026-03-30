@@ -1,7 +1,6 @@
 ---
 
 ## Getting Started
-
 ### Prerequisites
 To run the scripts and reproduce the analysis, you will need:
 *   **Python 3.x:** (e.g., Python 3.8+)
