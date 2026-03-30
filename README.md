@@ -6,12 +6,10 @@ To run the scripts and reproduce the analysis, you will need:
 *   **Git:** For cloning this repository.
 *   **Required Python packages:** Listed in `requirements.txt`.
 *   **External Bioinformatics Tools:**
-    *   **PCCD (Protein Charged Cluster Detector):** Our custom tool used for initial CC screening. (As this is a custom tool, further details or a separate repository link may be provided here if it becomes open-source).
-    *   **IUPred2A:** Used for intrinsic disorder prediction. (Accessed via web server or local installation; specify how you used it).
-    *   **ANCHOR2:** Used for binding-induced order prediction. (Specify how you used it).
+    *   **PCCD (Protein Charged Cluster Detector):** Our custom tool used for initial CC screening (As this is a custom tool, further details may be provided).
+    *   **IUPred2A:** Used for intrinsic disorder and binding-induced order prediction (using ANCHOR2): Accessed via web server.
     *   **Muscle v5:** For multiple sequence alignment.
     *   **IQ-TREE:** For phylogenetic tree inference.
-    *   **InterProScan:** For functional annotation and Gene Ontology enrichment.
 
 ### Installation and Setup
 
@@ -27,13 +25,6 @@ To run the scripts and reproduce the analysis, you will need:
     source venv/bin/activate  # On Linux/macOS
     # venv/Scripts/activate   # On Windows
     ```
-
-3.  **Install Python dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Install/Configure External Tools:** Ensure IUPred2A, ANCHOR2, Muscle v5, IQ-TREE, and InterProScan are accessible in your environment's PATH or that your scripts correctly point to their executables.
 
 ### Running the Analysis
 
@@ -71,7 +62,7 @@ The `data/` directory contains `supplementary_material_1.json`, which is a JSON 
 
 The `results/` directory stores the raw textual outputs from key bioinformatics tools used in our analysis, serving as the source for the figures and tables presented in the manuscript.
 
-*   **IQTree outputs (`results/IQTree/`):** Contains the multiple sequence alignment files (`.afa` files) used for phylogenetic tree inference. These alignments were crucial for understanding the evolutionary relationships of CCC-carrying proteins.
+*   ***IQ-TREE outputs (`results/IQTree/`): This folder contains the IQ-TREE report files (.iqtree) generated from the multiple sequence alignment using IQ-TREE2 (iqtree2.exe -s NCCC_inter_proteins.afa -B 1000 -alrt 1000). These reports include detailed model information, bootstrap support, and approximate likelihood-ratio test (aLRT) values, and were used to infer the phylogenetic relationships of proteins containing conserved charged clusters (CCC).
 *   **IUPRED2A outputs (`results/IUPRED2A/`):** Includes the raw prediction results for intrinsic disorder for various categories of NCCC and PCCC proteins. These files underpin our disorder ratio analyses.
 
 ---
@@ -85,8 +76,6 @@ This project is licensed under the [MIT License / Apache 2.0 License / etc.] - s
 ## Citation
 
 If you use any part of this code or data in your research, please cite our corresponding publication:
-
-[Your Full Paper Citation Here (once published)]
 
 ---
 
