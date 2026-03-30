@@ -4,9 +4,8 @@ To run the scripts and reproduce the analysis, you will need:
 *   **Python 3.x:** (e.g., Python 3.8+)
 *   **Jupyter Notebook:** For running the `.ipynb` files.
 *   **Git:** For cloning this repository.
-*   **Required Python packages:** Listed in `requirements.txt`.
 *   **External Bioinformatics Tools:**
-    *   **PCCD (Protein Charged Cluster Detector):** Our custom tool used for initial CC screening (As this is a custom tool, further details may be provided).
+    *   **PCCD (Python Charge Cluster Detection):** Our custom tool used for initial CC screening (As this is a custom tool, further details may be provided).
     *   **IUPred2A:** Used for intrinsic disorder and binding-induced order prediction (using ANCHOR2): Accessed via web server.
     *   **Muscle v5:** For multiple sequence alignment.
     *   **IQ-TREE:** For phylogenetic tree inference.
