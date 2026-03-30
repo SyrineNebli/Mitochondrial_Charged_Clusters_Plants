@@ -1,5 +1,3 @@
----
-
 ## Getting Started
 ### Prerequisites
 To run the scripts and reproduce the analysis, you will need:
