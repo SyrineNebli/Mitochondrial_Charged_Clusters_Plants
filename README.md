@@ -355,12 +355,6 @@ Summary statistics for amino acid composition across all conserved clusters.
 - Check file exists at specified location
 - Update file paths for your system
 
-## Performance Considerations
-
-- **Script 1-2:** Runtime depends on database size and number of collections
-- **Script 3:** Plot generation scales with number of proteins (~seconds per protein)
-- **Script 4:** Runtime proportional to number of conserved clusters
-
 ## Author Notes
 
 This pipeline was developed for analyzing conserved protein clusters with emphasis on:
