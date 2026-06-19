@@ -190,16 +190,12 @@ ACDEFGHIKLMNPQRSTVWY
    - NCCC intra-species (charged clusters within species)
    - PCCC inter-species (phosphorylation-related charged clusters across species)
    - PCCC intra-species (phosphorylation-related charged clusters within species)
-4. **Statistics Calculation:** Computes protein length statistics:
-   - Mean, median, standard deviation
-   - Q1, Q3, IQR (interquartile range)
-   - Total protein count
-5. **Header Enrichment:** Builds comprehensive FASTA headers with:
+4. **Header Enrichment:** Builds comprehensive FASTA headers with:
    - Database and species family information (GANM/LPM/LPNM_Genus_species)
    - Protein ID
    - Molecular function annotations from GO
    - Protein description and name
-6. **FASTA File Generation:** Writes annotated sequences to output files
+5. **FASTA File Generation:** Writes annotated sequences to output files
 
 **FASTA Header Format:**
 ```
@@ -309,13 +305,8 @@ Each `.result` file contains per-residue disorder and anchor scores for the corr
 
 ### From Script 3 (Disorder Prediction Visualization):
 ```
-results/bar_plots/
-├── protein_name_1.png
-├── protein_name_2.png
-└── ...
-```
 Each plot shows disorder prediction profiles with highlighted regions of interest and disorder threshold lines.
-
+```
 ### From IQTree Phylogenetic Analysis:
 Phylogenetic tree files for each protein category:
 ```
@@ -363,11 +354,6 @@ Summary statistics for amino acid composition across all conserved clusters.
 - Verify file paths in script3.ipynb
 - Check file exists at specified location
 - Update file paths for your system
-
-### Plot Generation Issues
-- Ensure `bar_plots/` directory can be created in working directory
-- Check for write permissions
-- Verify matplotlib is properly installed
 
 ## Performance Considerations
 
