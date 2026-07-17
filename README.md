@@ -379,13 +379,7 @@ See LICENSE file in project root.
 
 If you use this pipeline in your research, please cite the related publication:
 
-```bibtex
-@article{Nebli2026,
-  title={Conservation and functional significance of charged clusters in mitochondria-located proteins of green plants},
-  author={Nebli, et al.},
-  journal={Journal of Molecular Evolution},
-  year={2026}
-}
+Nebli, S., Rebai, A. & Ayadi, I. Sequence Conservation and Functional Significance of Charged Clusters in Mitochondria-Located Proteins of Green Plants. J Mol Evol (2026). https://doi.org/10.1007/s00239-026-10335-2
 ```
 
 Additionally, please acknowledge the following tools and libraries:
