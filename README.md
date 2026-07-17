@@ -381,14 +381,12 @@ If you use this pipeline in your research, please cite the related publication:
 
 Nebli, S., Rebai, A. & Ayadi, I. Sequence Conservation and Functional Significance of Charged Clusters in Mitochondria-Located Proteins of Green Plants. J Mol Evol (2026). https://doi.org/10.1007/s00239-026-10335-2
 ```
----
+
 Additionally, please acknowledge the following tools and libraries:
 - **IUPred2A:** Mészáros et al. (2018) for intrinsic disorder prediction
 - **MongoDB:** https://www.mongodb.com/
 - **Matplotlib:** https://matplotlib.org/
 - **Pandas:** https://pandas.pydata.org/
-
----
 
 **Last Updated:** July 17, 2026  
 **Python Version:** 3.8+  
